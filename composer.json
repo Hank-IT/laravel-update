@@ -1,0 +1,16 @@
+{
+    "name": "mrcrankhank/laravel-update",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MrCrankHank",
+            "email": "mail@alexander-hank.de"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/console": "~5.5.0",
+        "illuminate/contracts": "~5.5.0",
+        "illuminate/support": "~5.5.0"
+    }
+}
