@@ -1,4 +1,6 @@
-# A update solution for Laravel apps
+# THIS PROJECT IS NOT YET FUNCTIONAL!
+
+# An update solution for Laravel apps
 
 This Laravel package helps you with deploying updates to your application.
 
