@@ -11,6 +11,7 @@ return [
          */
         'ignore_dirs' => [
             'storage/',
+            'public/storage'
         ],
 
         /*
