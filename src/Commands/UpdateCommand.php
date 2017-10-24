@@ -8,7 +8,7 @@ use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
 use Illuminate\Console\Command;
 
-class Update extends Command
+class UpdateCommand extends Command
 {
     /**
      * The name and signature of the console command.

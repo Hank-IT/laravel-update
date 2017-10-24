@@ -2,7 +2,7 @@
 namespace MrCrankHank\Update;
 
 use Illuminate\Support\ServiceProvider;
-use MrCrankHank\Update\Commands\Update;
+use MrCrankHank\Update\Commands\UpdateCommand;
 use MrCrankHank\Update\Commands\GenerateJsonFileCommand;
 
 class UpdateServiceProvider extends ServiceProvider
@@ -26,7 +26,7 @@ class UpdateServiceProvider extends ServiceProvider
 
         $this->app->bind('command.update:run', GenerateJsonFileCommand::class);
 
-        $this->app->bind('command.update:generate-json-file', Update::class);
+        $this->app->bind('command.update:generate-json-file', UpdateCommand::class);
 
         $this->commands([
             'command.update:run',
