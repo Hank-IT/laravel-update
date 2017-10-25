@@ -1,6 +1,6 @@
 <?php
 
-namespace MrCrankHank\Update\Commands;
+namespace MrCrankHank\LaravelUpdate\Commands;
 
 use Exception;
 use Illuminate\Console\Command;

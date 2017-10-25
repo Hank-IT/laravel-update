@@ -1,9 +1,9 @@
 <?php
-namespace MrCrankHank\Update;
+namespace MrCrankHank\LaravelUpdate;
 
 use Illuminate\Support\ServiceProvider;
-use MrCrankHank\Update\Commands\UpdateCommand;
-use MrCrankHank\Update\Commands\GenerateJsonFileCommand;
+use MrCrankHank\LaravelUpdate\Commands\UpdateCommand;
+use MrCrankHank\LaravelUpdate\Commands\GenerateJsonFileCommand;
 
 class UpdateServiceProvider extends ServiceProvider
 {
