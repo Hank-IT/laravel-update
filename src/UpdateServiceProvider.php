@@ -1,4 +1,5 @@
 <?php
+
 namespace MrCrankHank\LaravelUpdate;
 
 use Illuminate\Support\ServiceProvider;
