@@ -8,7 +8,7 @@ This Laravel package helps you with deploying updates to your application.
 > composer require mrcrankhank/laravel-update
 
 Add the service provider to the 'providers' array in config/app.php:
-> MrCrankHank\Update\UpdateServiceProvider
+> MrCrankHank\LaravelUpdate\UpdateServiceProvider
 
 Publish config file
 > php artisan vendor:publish
