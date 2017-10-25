@@ -12,7 +12,7 @@ class GenerateJsonFileCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'update:generate-json-file {file : Name of the file.}';
+    protected $signature = 'update:generate-json-file {file=files.json : Name of the file.}';
 
     /**
      * The console command description.
