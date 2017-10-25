@@ -32,7 +32,7 @@ class GenerateJsonFileCommand extends Command
 
         // Don't include ignored directories
         foreach ($files as $key => $file) {
-                foreach ($config['ignore_dirs'] as $dir) {
+                foreach ($config['update']['ignore_dirs'] as $dir) {
                     if (strpos($file, $dir) !== false) {
                         unset($files[$key]);
                     }
@@ -42,7 +42,7 @@ class GenerateJsonFileCommand extends Command
         // Add files which are not part of the release but should not be deleted on update
         // We just merge them in the files array, which makes them part of the installation
         // therefore they won't be deleted
-        $files = array_merge($files, $config['ignore_files']);
+        $files = array_merge($files, $config['update']['ignore_files']);
 
         $files = json_encode($files, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
@@ -53,7 +53,7 @@ class GenerateJsonFileCommand extends Command
         }
     }
 
-    protected function getDirContents($dir, &$results = array()){
+    protected function getDirContents($dir, &$results = []){
         $files = scandir($dir);
 
         foreach($files as $key => $value){
