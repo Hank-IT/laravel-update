@@ -23,6 +23,7 @@ delete the files which are not part of your installation. This prevents any dele
 your installation.
 The Update command also migrates the database, clears the cache and puts your app into maintenance mode while updating.
 The exact commands are:
+<pre>
 > php artisan down
 > php artisan migrate --force
 > php artisan clear-compiled
@@ -31,6 +32,7 @@ The exact commands are:
 > php artisan config:cache
 > php artisan optimize
 > php artisan up
+</pre>
 
 ##### Deployment process
 > php artisan update:generate-json-file
