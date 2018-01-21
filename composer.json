@@ -17,5 +17,12 @@
         "psr-4": {
             "MrCrankHank\\LaravelUpdate\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrCrankHank\\LaravelUpdate\\UpdateServiceProvider"
+            ]
+        }
     }
 }
