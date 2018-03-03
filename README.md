@@ -30,7 +30,6 @@ The exact commands are:
 > php artisan view:clear
 > php artisan cache:clear
 > php artisan config:cache
-> php artisan optimize
 > php artisan up
 </pre>
 

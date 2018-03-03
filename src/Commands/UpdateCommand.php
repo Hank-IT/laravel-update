@@ -139,7 +139,6 @@ class UpdateCommand extends Command
         $this->call('cache:clear');
 
         $this->call('config:cache');
-        $this->call('optimize');
         $this->call('up');
 
         $this->info('Update is done.');
