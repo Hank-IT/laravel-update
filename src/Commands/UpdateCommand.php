@@ -3,11 +3,11 @@
 namespace MrCrankHank\LaravelUpdate\Commands;
 
 use Exception;
-use MrCrankHank\LaravelUpdate\Events\UpdateSuccessful;
 use ParentIterator;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
 use Illuminate\Console\Command;
+use MrCrankHank\LaravelUpdate\Events\UpdateSuccessful;
 
 class UpdateCommand extends Command
 {
