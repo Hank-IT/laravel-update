@@ -3,6 +3,7 @@
 namespace MrCrankHank\LaravelUpdate\Commands;
 
 use Exception;
+use MrCrankHank\LaravelUpdate\Events\UpdateSuccessful;
 use ParentIterator;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
@@ -139,6 +140,8 @@ class UpdateCommand extends Command
         $this->call('cache:clear');
         $this->call('config:cache');
         $this->call('up');
+
+        event(new UpdateSuccessful);
 
         $this->info('Update is done.');
     }
