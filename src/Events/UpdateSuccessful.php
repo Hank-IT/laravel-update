@@ -1,6 +1,6 @@
 <?php
 
-namespace MrCrankHank\LaravelUpdate\Events;
+namespace LaravelUpdate\Events;
 
 class UpdateSuccessful
 {

@@ -1,10 +1,10 @@
 {
-    "name": "mrcrankhank/laravel-update",
+    "name": "hankit/laravel-update",
     "type": "library",
     "authors": [
         {
-            "name": "MrCrankHank",
-            "email": "mail@alexander-hank.de"
+            "name": "Alexander Hank",
+            "email": "mail@hank-it.com"
         }
     ],
     "require": {
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "MrCrankHank\\LaravelUpdate\\": "src"
+            "LaravelUpdate\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MrCrankHank\\LaravelUpdate\\UpdateServiceProvider"
+                "LaravelUpdate\\UpdateServiceProvider"
             ]
         }
     }

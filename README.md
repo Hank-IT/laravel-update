@@ -4,12 +4,12 @@ This Laravel package helps you with deploying updates to your application.
 
 ## Installation
 ```
-composer require mrcrankhank/laravel-update
+composer require hankit/laravel-update
 ```
 
 If you run Laravel <= 5.4, add the service provider to the 'providers' array in config/app.php:
 ```
-MrCrankHank\LaravelUpdate\UpdateServiceProvider
+LaravelUpdate\UpdateServiceProvider
 ```
 
 Publish config file
