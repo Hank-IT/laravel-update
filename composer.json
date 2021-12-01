@@ -1,7 +1,7 @@
 {
     "name": "hankit/laravel-update",
     "type": "library",
-    "license": "MITs",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexander Hank",
